@@ -1,0 +1,56 @@
+{
+    "main": {
+        "title": "Mozik",
+        "summary": "AI 모자이크 동영상 편집기",
+        "link": "http://3.38.109.175:5000/"
+    },
+
+    "subject":{
+        "title": "작품주제",
+        "name": "Mozik",
+        "summary": "AI 모자이크 동영상 편집기",
+        "link": "http://3.38.109.175:5000/"
+    },
+
+    "rationale": {
+        "title": "실용적 근거",
+        "problem": "모르는 사람이 찍은 사진이나 영상에 얼굴이 나오는 것이 불편함",
+        "evidences": [
+        "유명인의 아들, 타인의 얼굴 모자이크 처리하지 않은 채 SNS 게시글 올려 비판 받음",
+        "개인정보보호위원회 통계자료 — 신고 및 상담 건수 각각 15,000건, 5,000건 지속 발생"
+        ],
+    "values": ["시간 절약", "개인정보 보호"],
+    "link": "http://3.38.109.175:5000/"
+  },
+
+  "features": {
+    "title": "핵심기능",
+    "items": [
+      "AI 기반 자동 탐지 기능",
+      "선택적 모자이크 처리",
+      "탐지 정확도 향상"
+    ],
+    "link": "http://3.38.109.175:5000/"
+  },
+
+  "environment": {
+    "title": "구현환경",
+    "environments": [
+      { "type": "Front-End(프론트엔드)", "tools": "HTML, CSS, Android Studio, Kotlin" },
+      { "type": "Back-End(백엔드)", "tools": "Flask, FastAPI, Python 웹 프레임워크" },
+      { "type": "Runtime(런타임)", "tools": "Docker, 컨테이너" },
+      { "type": "Deploy(배포)", "tools": "AWS EC2, 로컬 환경" }
+    ],
+    "link": "http://3.38.109.175:5000/"
+  },
+
+  "team": {
+    "title": "팀원 구성 및 역할",
+    "members": [
+      { "name": "김하민", "role": "프론트엔드(UI, User Interface)" },
+      { "name": "이소빈", "role": "백엔드(객체 탐지 기능 구현, Back-End와 Front-End 연결)" },
+      { "name": "최정환", "role": "백엔드(인공지능 모델 학습)" }
+    ],
+    "link": "http://3.38.109.175:5000/"
+  }
+}
