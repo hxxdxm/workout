@@ -31,4 +31,4 @@ Deploy(배포): AWS EC2로컬
 ## 6. 실행 방법(Run)
 
 docker compoe up --build -d
-# http://loclhost:5000
+# http://127.0.0.1:5000
