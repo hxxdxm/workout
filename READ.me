@@ -1,0 +1,34 @@
+# 캡스톤 프로젝트 소개 웹 (EC2 + Docker, 또는 로컬)
+본 저장소는 캡스톤 프로젝트 단일 소개 페이지와 API를 제공합니다.
+
+## 1. 작품주제 (Subject)
+- 제목: Mozik
+- 요약: AI 모자이크 동영상 편집기
+
+## 2. 실용적 근거 (Rationale)
+- 문제: 모르는 사람이 찍은 사진이나 영상에 얼굴이 나오는 것이 불편함
+- 근거(수치/설문/사례):
+유명인의 아들, 타인의 얼굴 모자이크 처리하지 않은 채 sns 게시글 올려 비판 받았다 보도
+개인정보보호위원회 통계자료, 신고 및 상담 건수 각각 15000건, 5000건 지속 발생
+- 개대가치: 시간 절약, 개인정보 보호
+
+## 3. 핵심 기능 (Features)
+- 기능 1: AI 기반 자동 탐지 기능
+- 기능 2: 선택적 모자이크 처리
+- 기능 3: 탐지 정확도
+
+## 4. 구현환경 (Environment)
+Front-End(프론트엔드): HTML, CSS, Adroid studio, kotlin
+Back-End(백엔드): Flask, Fasst Api, 파이썬 웹 프레임워크
+Runtime(런타임): Docker, 컨테이너
+Deploy(배포): AWS EC2로컬
+
+## 5. 팀원 구성 및 역할(Team)
+김하민 — 프론트엔드(UI, User Interface)
+이소빈 — 백엔드(객체 탐지 기능 구현, Back-End와 Front-End 연결)
+최정환 — 백엔드(인공지능 모델 학습)
+
+## 6. 실행 방법(Run)
+
+docker compoe up --build -d
+# http://loclhost:5000
